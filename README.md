@@ -4,7 +4,7 @@
 Usage:
 
 ```
-git clone url flix
+git clone https://github.com/Cjones90/Netflix-Autologin.git flix
 ```
 
 Navigate to the `flix` folder and enter your Netflix credentials into login.js.
