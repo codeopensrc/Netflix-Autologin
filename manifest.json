@@ -3,7 +3,7 @@
   "name": "Netflix Logmein",
   "description": "Auto Log in to netflix with predetermined credentials",
   "version": "1",
-  "auther": "Casey Jones",
+  "author": "Casey Jones",
   "content_scripts": [
     {
       "matches": ["https://www.netflix.com/Login?locale=en-US", "https://www.netflix.com/Login"],
