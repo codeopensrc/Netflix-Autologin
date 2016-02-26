@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Netflix Logmein",
+  "description": "Auto Log in to netflix with predetermined credentials",
+  "version": "1",
+  "auther": "Casey Jones",
+  "content_scripts": [
+    {
+      "matches": ["https://www.netflix.com/Login?locale=en-US", "https://www.netflix.com/Login"],
+      "js": ["login.js"]
+    },
+    {
+      "matches": ["http://www.netflix.com/browse"],
+      "js": ["jquery.js", "login2.js"]
+    }
+  ]
+}
